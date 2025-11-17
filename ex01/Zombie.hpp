@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joeyscags <joeyscags@student.42.fr>        +#+  +:+       +#+        */
+/*   By: jcupp <jcupp@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/16 21:16:46 by joeyscags         #+#    #+#             */
-/*   Updated: 2025/11/16 21:16:49 by joeyscags        ###   ########.fr       */
+/*   Created: 2025/11/17 16:29:30 by jcupp             #+#    #+#             */
+/*   Updated: 2025/11/17 16:29:31 by jcupp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #ifndef ZOMBIE_HPP
 #define ZOMBIE_HPP

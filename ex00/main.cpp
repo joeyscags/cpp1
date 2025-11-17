@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: joeyscags <joeyscags@student.42.fr>        +#+  +:+       +#+        */
+/*   By: jcupp <jcupp@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/15 18:46:03 by joeyscags         #+#    #+#             */
-/*   Updated: 2025/11/15 20:44:32 by joeyscags        ###   ########.fr       */
+/*   Created: 2025/11/17 16:27:58 by jcupp             #+#    #+#             */
+/*   Updated: 2025/11/17 16:27:59 by jcupp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "Zombie.hpp"
 
