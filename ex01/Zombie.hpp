@@ -3,26 +3,25 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcupp <jcupp@student.42heilbronn.de>       +#+  +:+       +#+        */
+/*   By: joeyscags <jcupp@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 16:29:30 by jcupp             #+#    #+#             */
-/*   Updated: 2025/11/17 16:29:31 by jcupp            ###   ########.fr       */
+/*   Updated: 2025/12/09 13:44:51 by joeyscags        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #ifndef ZOMBIE_HPP
-#define ZOMBIE_HPP
+# define ZOMBIE_HPP
 
-#include <string>
-#include <iostream>
+# include <iostream>
+# include <string>
 
-class Zombie {
-private:
+class Zombie
+{
+  private:
 	std::string name;
 
-public:
+  public:
 	Zombie();
 	Zombie(std::string name);
 	~Zombie();
@@ -30,6 +29,6 @@ public:
 	void setName(std::string name);
 };
 
-Zombie* zombieHorde(int N, std::string name);
+Zombie	*zombieHorde(int N, std::string name);
 
 #endif
