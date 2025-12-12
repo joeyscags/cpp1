@@ -16,6 +16,26 @@
 	#include <sstream>
 	#include <string>
 
+	static bool	replaceAll(const std::string &input, const std::string &s1,
+			const std::string &s2, std::string &output)
+	{
+		std::size_t pos = 0;
+		std::size_t prev = 0;
+		if (s1.empty())
+		{
+			output = input;
+			return (true);
+		}
+		while ((pos = input.find(s1, prev)) != std::string::npos)
+		{
+			output.append(input, prev, pos - prev);
+			output.append(s2);
+			prev = pos + s1.length();
+		}
+		output.append(input, prev, input.length() - prev);
+		return (true);
+	}
+
 	int	main(int argc, char **argv)
 	{
 		if (argc != 4)
