@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: joeyscags <jcupp@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/09 00:00:00 by jcupp             #+#    #+#             */
-/*   Updated: 2025/12/10 15:43:03 by joeyscags        ###   ########.fr       */
+/*   Created: 2025/12/09 23:21:26 by jcupp             #+#    #+#             */
+/*   Updated: 2025/12/11 19:34:16 by joeyscags        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,14 +20,14 @@
 class HumanB
 {
   private:
-	std::string	name;
-	Weapon		*weapon;
+	std::string name;
+	Weapon *weapon;
 
   public:
 	HumanB(std::string name);
 	~HumanB();
-	void	setWeapon(Weapon &weapon);
-	void	attack(void);
+	void setWeapon(Weapon &weapon);
+	void attack(void);
 };
 
 #endif
